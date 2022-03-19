@@ -2,7 +2,7 @@ body {
     margin: 0px;
     height: 100%;
     width: 100%;
-    min-width: 1160px;
+    min-width: 1266px;
 }
 .top-background {
     background-image: url(samoyed-background-top.jpg);
@@ -29,11 +29,11 @@ body {
 .contain {
     margin: 5%;
     display: grid;
-    grid-template-columns: repeat(12, 155px );
+    grid-template-columns: 8% repeat(10, 155px ) 8%;
     grid-template-rows: 300px 300px 300px;
     row-gap: 150px;
     margin-bottom: 5%;
-    
+    justify-content: center;
 }
     .contain-photo1 {
         background-image: url(photo1.png);
